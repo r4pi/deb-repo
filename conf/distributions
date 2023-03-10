@@ -1,0 +1,7 @@
+Origin: r4pi
+Label: r4pi.org
+Codename: bullseye
+Architectures: armhf
+Components: main
+Description: Apt repository for project r4pi.org
+SignWith: F62E43E9F5ECA42FEDB17791E397CFFE8228C245

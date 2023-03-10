@@ -1,0 +1,3 @@
+verbose
+basedir /home/pi/r4pi/deb-repo-bullseye/repo
+ask-passphrase
