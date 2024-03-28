@@ -9,23 +9,25 @@ There's info on creating a keypair
 
 ## Add a deb to the repo
 
+This example uses the "bullseye" distribution.
+
 ```
-cd repo
-reprepro includedeb buster /tmp/output/raspbian-buster/r-r4pi_4.0.4-2_armhf.deb
+cd bullseye
+reprepro includedeb bullseye /tmp/output/raspbian-bullseye/r-release_4.0.4-2_armhf.deb
 ```
 
 
 ## Sync the repo
 
 ```
-cd repo
+cd bullseye
 s3cmd sync --delete-removed ./ s3://debs.r4pi.org
 ```
 
 
 ## ToDo
 
-- [ ] create a "testing" channel
+- [ ] create a "testing" channel?
 
 
 ## General key management
