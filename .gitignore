@@ -1,2 +1,4 @@
-db/*
-repo
+bullseye/*
+bookworm/*
+jammy/*
+
