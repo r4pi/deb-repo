@@ -8,6 +8,8 @@ if [ "$CURRENT_DIR" == "bullseye" ]; then
     S3_PATH="s3://debs.r4pi.org/bullseye/"
 elif [ "$CURRENT_DIR" == "bookworm" ]; then
     S3_PATH="s3://debs.r4pi.org/bookworm/"
+elif [ "$CURRENT_DIR" == "noble" ]; then
+    S3_PATH="s3://debs.r4pi.org/noble/"
 else
     echo "Error: command must be run from within the repo directory"
     exit 1
