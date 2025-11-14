@@ -19,9 +19,11 @@ reprepro includedeb bullseye /tmp/output/raspbian-bullseye/r-release_4.0.4-2_arm
 
 ## Sync the repo
 
+For each repo that needs to be published:
+
 ```
 cd bullseye
-s3cmd sync --delete-removed ./ s3://debs.r4pi.org
+../repo-sync.sh
 ```
 
 
